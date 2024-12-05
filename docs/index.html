@@ -15,9 +15,12 @@
             p {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
             .list-group-item {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
             .sidebar-heading {font-family:Georgia, 'Times New Roman', Times, serif; color:green}
-            body {background-color: yellowgreen;}
+            body {background-color: rgb(148, 232, 120);}
             .btn {color:white; background-color: green; border-color: yellowgreen;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
             .nav-item {font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+            h2 {font-family:Georgia, 'Times New Roman', Times, serif; color:rgb(36, 153, 36);}
+            h3 {font-family:Georgia, 'Times New Roman', Times, serif; color:rgb(69, 180, 46);}
+            form {background-color: rgb(204, 251, 209); margin:1em; padding:2em}
         </style>
     </head>
     <body>
@@ -26,10 +29,8 @@
             <div class="border-end bg-white" id="sidebar-wrapper">
                 <div class="sidebar-heading border-bottom bg-light">Mariko Kitamura</div>
                 <div class="list-group list-group-flush">
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#dashboard">Dashboard</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#about">About me</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#mywork">My work</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#profile">Profile</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#contact">Contact</a>
                 </div>
             </div>
@@ -41,25 +42,97 @@
                         <button class="btn btn-primary" id="sidebarToggle">Toggle Menu</button>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
-                                <li class="nav-item active"><a class="nav-link" href="#home">Home</a></li>
-                                <li class="nav-item"><a class="nav-link" href="#socials">Socials</a></li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                                    <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="#team">Team</a>
-                                        <a class="dropdown-item" href="#download">Download</a>
-                                    </div>
-                                </li>
-                            </ul>
                         </div>
                     </div>
                 </nav>
                 <!-- Page content-->
                 <div class="container-fluid">
-                    <h1 class="mt-4">I love designing</h1>
-                    <p>Welcome to my portfolio!
+                    <h1 class="mt-4">Welcome to my portfolio!</h1>
+                    <p>I look forward to working with you.</p>
+                <section id="about">
+                    <h1 class="mt-4">About me</h1>
+                    <!--tool set, education, personal statement like vision and stuff-->
+                    <h2>My Vision</h2>
+                    <p>Everyday, we walk past or come across at least 1 bad design. I want to help in decreasing the bad designs that stick out, so 
+                        people don't have to just <em>"deal with it"</em>.
                     </p>
+                    <h2>Hobbies and interests</h2>
+                    <h3>History</h3>
+                    <p>I love history, especially ancient history. It inspires me to create, and seeing how far humanity has come makes me feel 
+                        like it is a blessing to be alive in this time where we have everything. Looking at things that have been excavated from 
+                        back then, it shows that humans have always been creating for issues.
+                    </p>
+                    <h3>Music</h3>
+                    <p>
+                        I am a fan of listening to music and playing music on guitar, recently I have picked up the ukulele as well. I love Oqtay Ağayev's 
+                        music especially, there is something very nice about old music and how the quality isn't perfect on streaming websites due to 
+                        the lack of proper recording equipment back then.
+                    </p>
+                    <h3>Fiber arts</h3>
+                    <p>Ever since I was a child, I loved creating with yarn. Knitting, crochet, and now Tunisian crochet, I have learnt 
+                        a lot of techniques and I want to keep learning. My favourite things to make are clothing or bags, as I can put in as much 
+                        customization as I want into them.
+                    </p>
+                    <h2>Tools I use</h2>
+                    <h3>Adobe softwares</h3>
+                    <p>In the past year or so, I have learnt how to use Adobe InDesign, Illustrator, and Photoshop. I think I am still a beginner at using 
+                        the softwares but I am able to produce products out of it.
+                    </p>
+                    <h3>Github</h3>
+                    <p>Also a recent skill, I am learning how to use HTML, CSS, and JavaScript. This portfolio is the result of using this tool, and a lot of
+                     hard work.
+                    </p>
+                    <h3>Freeform</h3>
+                    <p>Freeform is an Apple software, I have been using it recently to brainstorm, create wireframes, and ideate in general. The app lets you use 
+                        the Apple Pencil to draw, and add text or shapes as well. 
+                    </p>
+                    <h2>My Education</h2>
+                    <p>I have graduated high school with an IB Diploma along with a high school diploma, and I am pursuing a UX degree at Wilfrid Laurier University.</p>
+                </section>
+                <section id="mywork">
+                    <h1 class="mt-4">My work</h1>
+                    <!--showcasing past UX work (sitemap and wireframes from 205, app from 103, stuff from Laine's class)-->
+                    <h2>Website wireframes</h2>
+                    <p>This was a task for a class where I had to re-design a website that was badly made. I had made wireframes on Freeform, these are a few examples
+                        from the task:
+                    </p>
+                    <img src="HomePageWireframe.png" alt="Wireframe of home page" style="width:30em">
+                    <img src="EventsPageWireframe.png" alt="Wireframe of the events page" style="width:30em">
+                    <img src="ContactPageWireframe.png" alt="Wireframe of the contact us page" style="width:30em">
+                    <h2>UXstify app</h2>
+                    <p>The UXstify app was a group project for one of my classes. The app works like a social media app, but to "match" UX designers both professional and 
+                        beginners alike with companies that are hiring UX designers so they can get jobs. The screenshots are just few key pages of the app, it was very 
+                        fun to work on this since the final product that came in was fully interactive and was made using Canva and Google Slides.
+                    </p>
+                    <img src="UXstify1.png" alt="UXstify login page">
+                    <img src="UXstify2.png" alt="UXstify linking social media page">
+                    <img src="UXstify3.png" alt="UXstify matching with company page">
+                    <h2>Festival posters</h2>
+                    <p>One of my personal favourites, these were from a task where I had to make 30 different posters for a hypothetical festival. These were made in Adobe
+                         Illustrator.
+                    </p>
+                    <img src="BobbiBrown1.png" alt="First example" style="width:20em">
+                    <img src="BobbiBrown2.png" alt="Second example" style="width:20em">
+                    <img src="BobbiBrown3.png" alt="Third example" style="width:20em">
+                    <h2>Website mockup</h2>
+                    <p>Lastly, this was also another group project from class. This is a landing page mockup for a hypothetical artist, "Lawrence Lawrence". It was fun to 
+                        add the website elements. This was made using InDesign.
+                    </p>
+                    <img src="LLWebsite.png" alt="Lawrence Lawrence website landing page">
+                </section>
+                <section id="contact">
+                    <h1 class="mt-4">Contact me</h1>
+                    <!--contact form here-->
+                    <form>
+                        <p>Your name:<Input type="text" name="name" id="name">
+                        Email: <input type="email" name="email" id="email"><br>
+                        Message:<textarea></textarea><br>
+                        <input type="submit">
+                        <input type="reset">
+                         </p>
+                    </form>
+                </section>
+                <footer>Mariko Kitamura &copy; <x-year></x-year></footer>
                 </div>
             </div>
         </div>
